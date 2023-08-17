@@ -5,7 +5,7 @@
 
 
 let number = Math.trunc(Math.random()*20)+1;
-let score =10;
+let score =5;
 let highscore=0;
 
 
@@ -79,7 +79,7 @@ else{
 document.querySelector('.again').
 addEventListener('click',function()
 {
-score=10;
+score=5;
 number = Math.trunc(Math.random()*20)+1;
 document.querySelector('.message').textContent
     = ' Start guessing...' ; 
